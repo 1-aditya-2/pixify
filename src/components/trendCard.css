@@ -1,0 +1,26 @@
+.trend-card{
+    position:relative;
+    border-radius: 8px;;
+}
+
+.trend-card a{
+    position:relative;
+    text-decoration:none;
+    background:var(--primary);
+    color:#ffffff;
+    font-size:0.5rem;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    padding:10px;
+    width:100%;
+    display:inline-flex;
+    align-items:center;
+    justify-content:cenetr;
+    gap:15px;
+    transition:0.3s;
+    border-radius: 0 0 8px 8px;;
+}
+
+.trend-card a:hover{
+    background:#191919;
+}
